@@ -98,7 +98,7 @@ for i in  range(mins[0], maxs[0]+1):
 # Write LAMMPS data file
 with open('crystalline.data','w') as fdata:
 	# First line is a comment line 
-	fdata.write('Crystalline atoms - written for EnCodeVentor tutorial\n\n')
+	fdata.write('#Crystalline atoms - written for EnCodeVentor tutorial\n\n')
 	
 	#--- Header ---#
 	# Specify number of atoms and atom types 
